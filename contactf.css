@@ -1,0 +1,28 @@
+
+.contact
+	{
+		width: 800px;
+		height: 400px;
+	}
+table
+	
+{
+	position: left;
+}
+td{width: 300px;}
+
+input[type="text"],input [type="email"],input[type="password"],
+	{
+		padding: 5px;
+		width: 350px;
+		background: #5d9895;
+	}
+input [type="submit"]
+{
+	background: #fff;
+}
+textarea
+	{
+		width: 228px;
+    	height: 151px;
+	}

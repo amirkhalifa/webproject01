@@ -1,0 +1,313 @@
+@font-face
+	{
+	  src: url(fonts/Qardoos-Personal-Use.otf);
+	  font-family: Qardoos;
+	}
+*{margin: 0;padding: 0;outline: 0;}
+
+.templete{width: 1350px;margin: 0 auto;min-width: 350px;}
+
+.amir{width:850px; height: 250px;}
+.con{width: 960px;}
+.sldr{width:289px;height: 250px;}
+.clear{overflow: hidden;}
+body
+	{
+		background: #1D262D;
+	}
+.header1
+	{
+		height: 79px;
+    	background: #293138;
+	}
+.logo
+	{
+		height: 68px;
+	    width: 186px;
+	    float: left;
+	    padding: 5px;
+	}
+.logo img
+	{
+		width: 182px;
+	    height: 74px;
+	    padding: 3px;
+	}
+.home_search
+	{
+		height: 79px;
+		float: left;
+		width: 860px;
+	}
+.home
+	{
+		height: 40px;
+		width: 860px;
+		background: #717a82;
+	}
+.home img
+	{
+		height: 40px;
+		position: relative;
+		float: left;
+	}
+.signin
+	{
+	 position: relative;
+     float: right;
+     height: 40px;
+     width: 84px; 
+	}
+.signin p
+{
+	font-size: 16px;
+    padding-top: 2px;
+    color: #45d886;
+    border-bottom: 1px solid #e2b3b3;
+    border-left: 3px solid #e2b3b3;
+    text-align: center;
+
+}
+
+.search
+	{
+		height: 40px;
+	    width: 860px;
+	    background: #E3E9ED;
+	    position: absolute;
+	}
+input[type="text"]
+	{
+		width: 799px;
+	    height: 27px;
+	    padding: 4px;
+	    position: absolute;
+	    text-align: center;
+	    font-size: 17px;
+	    font-family: Qardoos;
+	    background:#a49494;
+	}
+button
+	{
+		float: right;
+	    width: 50px;
+	    height: 39px;
+	    color: #2c3eb2;
+	    background:#a49494;
+	    padding: 5px;
+	    font-size: 20px;
+	}
+.search_icon
+	{
+		float:right;
+		color: red;
+	}
+
+.media
+	{
+		float: right;
+	    width: 291px;
+	    height: 79px;
+	}
+.media img
+	{
+		height: 61px;
+	    width: 61px;
+	    padding: 4px;
+	    margin-top: 5px;
+	}
+.main_content
+	{
+		
+		background: #1D262D;
+		margin-bottom:5px;
+	}
+
+.side_menu
+	{
+		float: left;
+		height: 400px;
+		width: 194px;
+		margin-top: 2px;
+	}
+.side_menu ul
+	{
+		margin:0;
+		padding:0;
+		list-style:none;
+	}
+.side_menu ul li
+	{
+		display: block;
+		float: left;
+		position: relative;
+		height: 37px;
+		width: 195px;
+		border-bottom: 1px solid #717a82;
+		font-family: Qardoos;
+		z-index:999;
+		font-size: 18px;
+	}
+
+.side_menu ul li a 
+	{
+		font-weight: inherit;
+	    display: block;
+	    text-decoration: none;
+	    text-align: left;
+	    width: 181px;
+	    margin-top: 0px;
+	    background: #293138;
+	    color: #b7aa8a;
+	    padding-top: 5px;
+	    padding-bottom: 14px;
+	    height: 18px;
+	    padding-left: 14px;
+
+	}
+
+.side_menu ul li a:last-child{border-bottom: 0px;}
+.side_menu ul li:hover a
+	{
+		background:#2d3942;color:#fff;animation:example 1s ease;
+	} 
+						/*hover use for menu when user move mouse over menu then what effect */
+.side_menu ul li ul
+	{
+		position: absolute;
+	    left: 197px;
+	    top: 0px;
+	}
+	
+.side_menu ul li ul li
+	{
+		display:none;
+	}
+
+.side_menu ul li:hover ul li
+	{
+		display:block;
+	}
+#active {background:#D3D3D3;} 
+.payment 
+	{
+		float: left;
+	    height: 279px;
+	    width: 195px;
+	    margin-top: 1px;
+	    position: relative;
+	}
+.payment img
+	{
+		width: 194px;
+    	height: 88px;
+	}
+.payment h3
+	{
+		font-size: 25px;
+	    width: 194px;
+	    height: 62px;
+	    color: #fff;
+	    background: #675252;
+	    text-align: center;
+	    padding-top: 5px;
+	    border-radius: 31px;
+	}
+.mid_content
+	{
+		height:auto;
+		width: 860px;
+		float: left;
+		background: #62757a;
+		margin: 2px;
+	}
+	
+.bann
+	{
+		
+		width:860px;
+		height:253px;
+	}
+
+
+.gallery
+	{
+		width:860px;
+		padding:1px;
+		height:auto;
+	}
+.gallery img
+	{
+		float: left;
+	    position: relative;
+	    width: 205px;
+	    height: 206px;
+	    margin-left: 6px;
+	    margin-top: 2px;
+	    border: 1px solid #744545;
+	    box-shadow: 0 2px 16px 5px #3d5c83;
+	    transition: 1s;
+	} /* here i use transition for hove image 210-212*/
+.gallery img:hover {width: 207px;height: 209px;}
+.right_content
+	{
+		height: 400px;
+		width:290px;
+		position: relative;
+		float: left;
+		background: #6a7c8bd4;
+	}
+.right_content video
+	{
+    	padding: 1px;
+    	width:100%;
+    	height:156px;
+    	float: left;
+	}
+
+.right_content img
+	{
+		padding: 2px;
+	    width: 289px;
+	    height: 240px;
+	    position: relative;
+	    float: left;
+	    margin-top: 3px;
+	    border-radius: 7px;
+
+	}
+.right_slide
+	{
+		
+		position: relative;
+		float: right;
+		margin-top: 5px;
+	}
+.footer
+	{
+		height: 100px;
+    	background: #293138;
+	}
+.footer h3,h5
+	{
+ 		text-align: center;
+    	color: #bcbf79;
+    	font-family: Qardoos;
+	}
+
+.footer p
+	{
+		font-family: monospace;
+	    font-size: large;
+	    font-style: italic;
+	    font-weight: 600;
+	    color: #5d9895;
+	    text-align: center;
+	}
+
+/* for Animated navigation menu */
+@-webkit-keyframes example
+{
+	0%{transform:scale(1.2,1.5) rotateX(30deg)}
+	100%{transform:scale(1,1) rotate(0deg)}
+}
